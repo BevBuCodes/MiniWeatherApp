@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: url('nicepic.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.current .temp {
+    color: white;
+    font-size: 100px;
+    font-weight: 750;
+    margin: 30px 0px;
+}
+
+.current .temp span {
+    font-weight: 500;
+}
+
+.current .description {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.current .low-hi {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;  
+}
